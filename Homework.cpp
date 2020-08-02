@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-	float first, second, third, midtrem, final, total, total1 ;
+	float first, second, third, midterm, final, total, sum ;
 		cout << "==========QUIZZES===============" << endl;
 		cout << "Enter first quizz (10) : ";
 		cin >> first;
@@ -13,7 +13,7 @@ int main()
 		
 		cout << "==========MID-TERM==============" << endl;
 		cout << "Enter mid-term (40) : ";
-		cin >> midtrem;
+		cin >> midterm;
 
 		cout << "===========FINAL================" << endl;
 		cout << "Enter final (50) : ";
@@ -22,14 +22,14 @@ int main()
 		//Sum of quizzes
 		total = (first + second + third) / 3;
 		cout << "Quizzes Total : " << total << endl;
-		cout << "Mid term : " << midtrem << endl;
+		cout << "Mid term : " << midterm << endl;
 		cout << "Final : " << final << endl;
 
 		//Total
-		total1 = midtrem + final + total;
-		cout << "Total : " << total1 << endl;
+		sum = midterm + final + total;
+		cout << "Total : " << sum << endl;
 
-		if (total1 >= 50){
+		if (sum >= 50){
 			cout << "You score is PASS" << endl;
 		} else {
 			cout << "You score is NOT PASSED" << endl;
