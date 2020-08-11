@@ -8,7 +8,7 @@ int main ()
 	{
 		cout << "Enter Year " << n << " : ";
 		cin >> year;
-		int age = calAge(year) ;
+		int age= calAge(year) ;
 		cout << "Age " << n << " : " << age << endl;
 	}
 	cout << "\nThank you." << endl;
@@ -16,5 +16,7 @@ int main ()
 }
 int calAge(int year)
 {
-	return(2563 - year);
+	int age;
+	age = 2563 - year;
+	return(age);
 }
