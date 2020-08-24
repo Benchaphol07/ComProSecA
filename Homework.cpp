@@ -1,8 +1,11 @@
 #include <iostream>
+#include <string>
 using namespace std;
 int main()
 {
 	float first, second, third, midterm, final, total, sum ;
+	string result;
+	
 		cout << "==========QUIZZES===============" << endl;
 		cout << "Enter first quizz (10) : ";
 		cin >> first;
