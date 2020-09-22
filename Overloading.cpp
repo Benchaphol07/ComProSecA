@@ -34,7 +34,7 @@ int main()
 		}
 		else if (Choice == '3')
 		{
-			float Based, Hight;
+			double Based, Hight;
 			cout << "Enter based and hight : ";
 			cin >> Based >> Hight;
 			cout << "Area of Triangle = " << fixed;
